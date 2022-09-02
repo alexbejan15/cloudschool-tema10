@@ -1,0 +1,65 @@
+.carousel-wrapper {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.carousel-caption {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+
+}
+
+.card {
+    margin: 20px;
+}
+
+.w-100 {
+    filter: brightness(50%);
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.btn {
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #da4f4f;
+}
+
+
+.pagination {
+    justify-content: flex-end;
+}
+
+.animation {
+    position: relative;
+    background-repeat: repeat-x;
+    animation: animatedSearchButton 5s linear infinite;
+}
+
+@keyframes animatedSearchButton {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 200px;
+    }
+
+    100% {
+        left: 0;
+    }
+}

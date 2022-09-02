@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tema 10</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+        integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="carousel-wrapper">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100"
+                        src="https://images.unsplash.com/photo-1599946347371-68eb71b16afc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVybGlufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                        alt="First slide">
+                    <div class="carousel-caption d-none d-md-block text-center">
+                        <h5>Book your next trip</h5>
+                        <p>An arrangement you make to have a hotel room, tickets, etc. at a
+                            particular time in the future</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://media9.ro/wp-content/uploads/2022/05/barcelona.jpg"
+                        alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Book your next trip</h5>
+                        <p>An arrangement you make to have a hotel room, tickets, etc. at a
+                            particular time in the future</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/68/Galati_-_zona_portului_vechi.jpg"
+                        alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Book your next trip</h5>
+                        <p>An arrangement you make to have a hotel room, tickets, etc. at a
+                            particular time in the future</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Leave from</p>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Choose country</option>
+                    <option value="romania">Romania</option>
+                    <option value="hungary">Hungary</option>
+                    <option value="italy">Italy</option>
+                    <option value="france">France</option>
+                    <option value="germany">Germany</option>
+                </select>
+            </div>
+            <div class="col">
+                <p>To</p>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Choose country</option>
+                    <option value="romania">Romania</option>
+                    <option value="hungary">Hungary</option>
+                    <option value="italy">Italy</option>
+                    <option value="france">France</option>
+                    <option value="germany">Germany</option>
+                </select>
+            </div>
+            <div class="col">
+                <p>Depart</p>
+                <input type="datetime-local" id="datepicker" />
+            </div>
+            <div class="col">
+                <button type="button" class="btn animation">Search</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://wander-lush.org/wp-content/uploads/2020/10/Boutique-and-Colorful-Apartment-Sofia-Airbnb.jpg"
+                        class="card-img-top"
+                        onmouseover="this.src='https://i.pinimg.com/originals/28/d3/06/28d306327b457dd959871a0f9e520ceb.jpg'"
+                        onmouseleave="this.src='https://wander-lush.org/wp-content/uploads/2020/10/Boutique-and-Colorful-Apartment-Sofia-Airbnb.jpg'">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">FROM / NIGHT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://wander-lush.org/wp-content/uploads/2020/06/Superior-Apartment-Budapest-Airbnb.jpg"
+                        onmouseover="this.src='https://lovedeco.ro/wp-content/uploads/2020/02/Art-Deco-Apartment-airbnb-cluj-napoca-lovedeco.jpg'"
+                        onmouseleave="this.src='https://wander-lush.org/wp-content/uploads/2020/06/Superior-Apartment-Budapest-Airbnb.jpg'"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">FROM / NIGHT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://a0.muscache.com/im/pictures/SeoLandingPage/PropertyType/original/9d1608ad-22cd-412c-bf29-59215b589599.jpg?im_w=720"
+                        onmouseover="this.src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rent-carrie-bradshaw-apartment-airbnb-sex-and-the-city-airbnb-08-lounge-credit-kate-glicksberg-1636042553.jpg'"
+                        onmouseleave="this.src='https://a0.muscache.com/im/pictures/SeoLandingPage/PropertyType/original/9d1608ad-22cd-412c-bf29-59215b589599.jpg?im_w=720'"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">FROM / NIGHT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.squarespace-cdn.com/content/v1/536b1d6de4b0f46ed93e8b47/1533116547608-QPT3XLTC6OWSX78YKM7E/2.png?format=1500w"
+                            onmouseover="this.src='https://www.thenordroom.com/wp-content/uploads/2019/04/attic-apartment-paris-airbnb-nordroom4.jpg'"
+                            onmouseleave="this.src='https://images.squarespace-cdn.com/content/v1/536b1d6de4b0f46ed93e8b47/1533116547608-QPT3XLTC6OWSX78YKM7E/2.png?format=1500w'"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">FROM / NIGHT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://media.nomadicmatt.com/2018/apartment.jpg"
+                            onmouseover="this.src='https://lovedeco.ro/wp-content/uploads/2020/02/Art-Deco-Apartment-airbnb-cluj-napoca-lovedeco-cover-1133x568.jpg'"
+                            onmouseleave="this.src='https://media.nomadicmatt.com/2018/apartment.jpg'"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">FROM / NIGHT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://media.cntraveler.com/photos/5e58307116b40300088c226c/master/pass/airbnb-paris-20718287.jpg"
+                            onmouseover="this.src='https://a0.muscache.com/im/pictures/miso/Hosting-21854687/original/d6ec62b7-b537-4a4d-b112-7ea79dfe097a.jpeg?im_w=720'"
+                            onmouseleave="this.src='https://media.cntraveler.com/photos/5e58307116b40300088c226c/master/pass/airbnb-paris-20718287.jpg'"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">FROM / NIGHT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="">
+            <div class=" text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            DB Cloud School
+                        </h6>
+
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-l-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Company
+                        </h6>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-l-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Resources
+                        </h6>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-l-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Help & Support</h6>
+
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-l-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Legal</h6>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0z);">
+            All rights reserved. Copyright © 2022 DB Cloud School by Bejan Alexandru
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
